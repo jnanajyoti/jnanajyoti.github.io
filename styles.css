@@ -14,9 +14,21 @@ header, section, footer {
     border-radius: 8px;
 }
 
+.profile-container {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  /* Makes the image round */
+    margin: 20px;
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 header nav ul li {
@@ -39,4 +51,8 @@ footer {
 
 h1, h2 {
     color: #333;
+}
+
+h1 {
+    margin-top: 0; /* Adjusts space if necessary */
 }
