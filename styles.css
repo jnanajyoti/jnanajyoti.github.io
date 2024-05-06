@@ -14,14 +14,22 @@ header, section, footer {
     border-radius: 8px;
 }
 
+header {
+    background: url('header-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white; /* Ensures text is readable on likely dark background */
+}
+
 .profile-container {
     text-align: center;
+    padding: 40px 20px; /* Adds more space around the content */
 }
 
 .profile-photo {
     width: 150px;
     height: 150px;
-    border-radius: 50%;  /* Makes the image round */
+    border-radius: 50%; /* Makes the image round */
+    border: 4px solid white; /* Adds white border to make the photo stand out */
     margin: 20px;
 }
 
@@ -37,7 +45,7 @@ header nav ul li {
 }
 
 a {
-    color: #0077cc;
+    color: white; /* Adjusts link color for readability on dark background */
 }
 
 a:hover {
@@ -50,7 +58,7 @@ footer {
 }
 
 h1, h2 {
-    color: #333;
+    color: white; /* Adjusts text color for readability */
 }
 
 h1 {
